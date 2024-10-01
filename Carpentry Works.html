@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Villa Agency - Real Estate HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <style>
+  .animated-div {
+    position: fixed;
+    top: 175px;
+    right: -300px; /* Initial position (hidden) */
+    width: 300px; /* Adjusted width for form */
+    height: auto; /* Adjusted height */
+    background-color: rgb(23, 172, 205);
+    padding: 20px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: right 0.5s ease; /* Animation for sliding */
+    z-index: 10; /* Ensure div is above other elements */
+    color: white;
+}
+
+.show {
+    right: 60px; /* Final position when visible */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements */
+}
+
+.div-input {
+    margin-bottom: 10px; /* Space between input and button */
+    border-radius: .5rem;
+    border: none;
+    height: 35px;
+}
+.div-button {
+  border: none;
+  font-size: 17px;
+  padding: 4px;
+  width: 50%;
+  align-self: center;
+  border-radius: .5rem;
+  background-color: #195A7F;
+  color: #c5d4d7;
+  transition: .5s;
+}
+
+.div-button:hover{
+  background-color: #00466f;
+  color: white;
+  transition: .5s;
+}
+
+
+    </style>
+<!--
+
+TemplateMo 591 villa agency
+
+https://templatemo.com/tm-591-villa-agency
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <ul class="info">
+            <li><i class="fa fa-envelope"></i>teamadsinteriors@gmail.com</li>
+            <li><i class="fa fa-map"></i> Dubai, Deira</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <ul class="social-links">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="logo" style="height: 100px; width: 240px; background-color: rgb(0, 63, 95);">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="services.html" class="active">Services</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a id="toggleDiv" href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                    
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <div class="animated-div" id="myDiv">
+    <form id="emailForm">
+        <label style="margin-bottom: 4px;" for="email">Get In Touch With Us!</label>
+        <input class="div-input" placeholder="Your Email Address" type="email" id="email" required>
+        <button class="div-button" type="submit">Submit</button>
+    </form>
+</div>
+
+  <div class="page-heading header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <span class="breadcrumb"><a href="services.html">Services</a>  /  Carpentry Works</span>
+          <h3>Carpentry Works</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="single-property section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="main-image">
+            <img src="assets/images/single-property.jpg" alt="">
+          </div>
+          <div class="main-content">
+            <h4>Master Carpentry for Every Project</h4>
+            At Team Ads, we offer custom carpentry solutions that add value, functionality, and aesthetic appeal to your space. From bespoke furniture to complete interior woodwork installations, our skilled carpenters work closely with you to bring your vision to life. Whether it’s crafting cabinets, wardrobes, or intricate wood paneling, we focus on delivering top-notch craftsmanship using high-quality materials. Our carpentry services are perfect for homeowners looking to enhance the appeal of their living spaces or businesses seeking custom office fixtures and installations.
+<br><br>
+We take pride in our ability to deliver on time, ensuring that each project is completed to the highest standards with attention to detail. Our team’s expertise spans various styles and techniques, enabling us to offer a range of design options, from traditional to modern. Team Ads is committed to creating functional, beautiful woodwork that fits perfectly within your space, enhancing its overall aesthetic and functionality.
+
+</p>
+          </div> 
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What services does Team Ads offer?
+
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Team Ads offers a comprehensive range of services in the construction and contracting industry. Our specialties include electrical fittings and fixture services, AC installation and maintenance, plumbing and sanitary contracting, carpentry works, and floor and wall tiling services. We aim to provide high-quality solutions tailored to meet the unique needs of each project.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What sets Team Ads apart from other contracting companies in Dubai?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  What sets Team Ads apart is our unwavering commitment to excellence and customer satisfaction. With years of industry experience, our team combines expertise with innovative techniques and high-quality materials. We focus on understanding our clients' specific needs and deliver personalized services that exceed their expectations, ensuring every project is completed on time and to the highest standards.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How does Team Ads ensure quality and safety in its projects?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  At Team Ads, quality and safety are paramount in all our projects. We adhere to strict safety protocols and industry regulations, ensuring a secure working environment for our team and clients. Our skilled professionals are trained to implement best practices in construction, and we conduct regular quality checks throughout the project lifecycle to maintain our high standards of workmanship.
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="info-table">
+            <ul>
+              <li>
+                <img src="assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
+                <h4>50+<br><span>Buildings
+                  Finished Now</span></h4>
+              </li>
+              <li>
+                <img src="assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
+                <h4>15<br><span>Years Experience</span></h4>
+              </li>
+              <li>
+                <img src="assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
+                <h4>24<br><span>Hours
+                  Good support</span></h4>
+                </li>
+                <li>
+                <img src="assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
+                <h4>+971 52 450 5809<br><span>Call Us Now</span></h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="section best-deal">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="section-heading">
+          <h6>| Best Deal</h6>
+          <h2>The Best Technical Solutions In Dubai</h2>
+        </div>
+      </div>
+      <div class="col-lg-12">
+          <div class="tabs-content">
+            <div class="row">
+              <div class="nav-wrapper ">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Electrical</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Plumbing</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Floor & Wall</button>
+                  </li>
+                </ul>
+              </div>              
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="appartment" role="tabpanel" aria-labelledby="appartment-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Projects Completed <span>185+                          </span></li>
+                          <li>Project Success Rate <span>100%                          </span></li>
+                          <li>Team Expertise <span>10+ years experience</span></li>
+                          <li>Licensed Electricians <span>Yes</span></li>
+                          <li>Payment Options <span>Flexible</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/service-images/service-images5.jpeg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Electrical Services</h4>
+                      <p style="font-size: 17px;">At Team Ads, we offer safe and reliable electrical fittings and fixture services across Dubai. Whether you're building a new property or renovating, our certified electricians ensure precision in every detail. From lighting installations to power setups, we handle all your electrical needs with professionalism and care.                      </p>
+                      <div class="icon-button">
+                        <a href="Electrical Fittings & Fixture.html"><i class="fa fa-calendar"></i> Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="villa" role="tabpanel" aria-labelledby="villa-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Projects Completed <span>150+</span></li>
+                          <li>Years of Experience <span>26+</span></li>
+                          <li>Licensed Plumbers <span>Yes</span></li>
+                          <li>Emergency Services Available <span>24/7                          </span></li>
+                          <li>Payment Options <span>Flexible</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/service-images/service-images13.jpeg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Plumbing Services</h4>
+                      <p>At Team Ads, we specialize in expert plumbing and sanitary contracting, offering comprehensive services across Dubai. From installations to maintenance, we ensure seamless water flow and efficient sanitation systems for residential and commercial properties. Our experienced plumbers are available round the clock to address urgent issues and provide top-tier solutions.
+
+                      </p>
+                      <div class="icon-button">
+                        <a href="Plumbing & Sanitary Contracting.html"><i class="fa fa-calendar"></i> Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Projects Completed <span>120+                          </span></li>
+                          <li>Years of Expertise <span>18+</span></li>
+                          <li>Certified Tiling Experts <span>Yes</span></li>
+                          <li>Custom Designs Available <span>Yes</span></li>
+                          <li>Payment Options <span>Flexible</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/service-images/service-images18.webp" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Tiling Services</h4>
+                      <p>At Team Ads, we offer expert floor and wall tiling services, transforming spaces with precision and style. Whether it's ceramic, porcelain, or custom designs, we ensure flawless installations that enhance the beauty and functionality of any space. From residential to commercial projects, our tiling experts deliver quality that lasts.</p>
+                      <div class="icon-button">
+                        <a href="Floor & Wall Tiling.html"><i class="fa fa-calendar"></i> Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+  <footer class="footer-no-gap">
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2024 Team Ads Tech Co., Ltd. All rights reserved. 
+        
+        Design: <a rel="nofollow" href="https://wa.me/message/YT76XSBW5C2WC1" target="_blank">Hitonex Solutions</a> </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('toggleDiv').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+
+    // Toggle the 'show' class to animate the div
+    var animatedDiv = document.getElementById('myDiv');
+    animatedDiv.classList.toggle('show');
+});
+
+// Hide the animated div when clicking outside of it
+document.addEventListener('click', function(event) {
+    var animatedDiv = document.getElementById('myDiv');
+    var toggleLink = document.getElementById('toggleDiv');
+
+    // Check if the click is outside the animated div and the toggle link
+    if (!animatedDiv.contains(event.target) && !toggleLink.contains(event.target)) {
+        animatedDiv.classList.remove('show');
+    }
+});
+            
+</script>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
